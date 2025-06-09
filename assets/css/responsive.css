@@ -40,6 +40,14 @@
     .app__content {
         padding-top: 8px;
     }
+
+    .mobile-category {
+        display: block; /* Hiển thị phần này trên máy tính bảng và di động */
+    }
+
+    .header_mobile-search {
+        display: block;
+    }
 }
 
 /* Tablet */
@@ -102,6 +110,14 @@
 
     .app__content {
         margin: 0 4px;
+    }
+
+    .header__logo-img {
+        width: 60px;
+    }
+
+    .footer__content {
+        padding: 0 20px;
     }
 
     @keyframes mobileSearchSideIn {

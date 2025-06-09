@@ -495,6 +495,7 @@
 
 .header_mobile-search {
     padding: 0 12px;
+    display: none;
 }
 
 .header_mobile-search-icon {
@@ -998,7 +999,7 @@
 
 /* Mobile category */
 .mobile-category {
-
+    display: none; /* Ẩn phần này trên máy tính */
 }
 
 .mobile-category__list {
@@ -1049,6 +1050,7 @@
     font-weight: 300;
     user-select: none; /* Không cho phép người dùng chọn chữ trong phần này */
     -webkit-user-select: none; /* Không cho phép người dùng chọn chữ trong phần này */
+    padding: 0 6px;
 }
 
 /* Home sort + filter */
