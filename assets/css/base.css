@@ -10,7 +10,7 @@
     --nabar-height: 46.5px; */
     --header-height: 120px;
     --nabar-height: 34px;
-    --header-with-search-height: calc(var(--header-height) - var(--nabar-height));
+    --header-with-search-height: calc(var(--header-height) - var(--narbar-height));
     --header-sort-bar-height: 46px;
 }
 .roboto-thin {
@@ -93,7 +93,7 @@ html {
         opacity: 0;
     }
     to {
-        opacity: 0,9;
+        opacity: 0.9;
     }
 }
 
@@ -125,7 +125,7 @@ html {
     text-decoration: none;
     border: none;
     border-radius: 2px;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     padding: 0 12px;
     cursor: pointer;
     background-color: var(--white-color);
