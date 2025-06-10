@@ -170,7 +170,7 @@
 }
 
 .header__navbar-icon{
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     margin-right: 1px;
 }
 
@@ -190,7 +190,7 @@
     padding: 8px;
     border-radius: 2px;
     display: none;
-    animation: fadeIn ease-in 0,2s;
+    animation: fadeIn ease-in 0.2s;
     z-index: 1;
     box-shadow: 0 1px 1px #999;
 }
